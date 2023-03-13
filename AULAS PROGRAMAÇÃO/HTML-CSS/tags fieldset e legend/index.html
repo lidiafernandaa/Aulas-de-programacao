@@ -8,7 +8,7 @@
     <title>Tags Fieldset e Legend</title>
 </head>
 <body>
-    <form method="get" action="blabla.php">
+    <form method="get" action="blabla.php" enctype="multipart/form-data">
 
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -30,6 +30,11 @@
                 <label>
                     E-mail: <br>
                     <input type="text" name="email" pattern="" required>
+                </label>
+                <br>
+                <label>
+                    Foto: <br>
+                    <input type="file" name="photo" accept="image/*">
                 </label>
                 <br>
         </fieldset>
